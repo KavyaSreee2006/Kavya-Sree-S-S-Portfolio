@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya Sree S S | Portfolio</title>
+    <meta name="description" content="Portfolio of Kavya Sree S S, a passionate Computer Science and Engineering student & Full Stack Developer. Dr. N.G.P Institute of Technology.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Feather Icons for modern vector icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle Floating Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+        <i data-feather="moon" class="theme-icon-dark"></i>
+        <i data-feather="sun" class="theme-icon-light"></i>
+    </button>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>KavyaSree<span class="logo-accent"> /&gt;</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certificates</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <i data-feather="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-container container grid">
+                <div class="hero-content">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <h1 class="hero-name">Kavya Sree S S</h1>
+                    <div class="hero-subtitle">
+                        <span class="typewriter-prefix">I am a </span>
+                        <span class="typewriter-text" id="typewriter"></span>
+                        <span class="typewriter-cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Computer Science & Engineering student specializing in Full Stack Web Development. Proficient in building responsive frontend user interfaces, robust backend logic, and IoT-driven solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects <i data-feather="arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/KavyaSreee2006" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/kavya-sree-182618296" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="mailto:kavyasreesundar9@gmail.com" class="social-link" title="Email">
+                            <i data-feather="mail"></i>
+                        </a>
+                        <a href="tel:7010247739" class="social-link" title="Phone">
+                            <i data-feather="phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-img-container">
+                    <div class="hero-img-blob">
+                        <img src="assets/avatar.jpg" alt="Kavya Sree S S" class="hero-img">
+                        <div class="glowing-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My professional summary and academic background</span>
+
+            <div class="about-container container grid">
+                <div class="about-info">
+                    <p class="about-description">
+                        I am currently pursuing a <strong>Bachelor of Engineering in Computer Science and Engineering</strong> at <strong>Dr. N.G.P Institute of Technology</strong>. I have a strong foundation in programming, problem-solving, and software engineering principles. 
+                    </p>
+                    <p class="about-description">
+                        With practical experience as a Full Stack Development Intern, I enjoy designing responsive interfaces and developing database-driven applications. I am a quick learner and work exceptionally well in collaborative environments.
+                    </p>
+
+                    <!-- Education Details -->
+                    <div class="education-info">
+                        <h3 class="about-subtitle"><i data-feather="book-open"></i> Education</h3>
+                        <div class="edu-timeline">
+                            <div class="edu-item">
+                                <div class="edu-marker"></div>
+                                <div class="edu-content">
+                                    <h4 class="edu-title">B.E. Computer Science and Engineering</h4>
+                                    <span class="edu-institute">Dr. N.G.P Institute of Technology</span>
+                                    <div class="edu-details">
+                                        <span class="badge badge-accent">2023 – 2027</span>
+                                        <span class="badge badge-success">CGPA: 8.52 (Till 5th Sem)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="edu-item">
+                                <div class="edu-marker"></div>
+                                <div class="edu-content">
+                                    <h4 class="edu-title">Higher Secondary Education (Class XII)</h4>
+                                    <span class="edu-institute">Vidhya Nethra Matriculation Higher Secondary School</span>
+                                    <div class="edu-details">
+                                        <span class="badge badge-accent">2023</span>
+                                        <span class="badge badge-success">Percentage: 87%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="edu-item">
+                                <div class="edu-marker"></div>
+                                <div class="edu-content">
+                                    <h4 class="edu-title">Secondary Education (Class X)</h4>
+                                    <span class="edu-institute">Vidhya Nethra Matriculation Higher Secondary School</span>
+                                    <div class="edu-details">
+                                        <span class="badge badge-accent">2020 – 2021</span>
+                                        <span class="badge badge-success">Percentage: 100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats-grid grid">
+                    <div class="stat-card">
+                        <span class="stat-number">8.52</span>
+                        <span class="stat-title">Current CGPA</span>
+                        <span class="stat-description">B.E. Academic Score</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-title">Internship</span>
+                        <span class="stat-description">Full Stack Intern</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-title">Major Projects</span>
+                        <span class="stat-description">Web & IoT Solutions</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-title">Certifications</span>
+                        <span class="stat-description">MongoDB, ML, Cloud & IoT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <span class="section-subtitle">My technology stack and core competencies</span>
+
+            <div class="skills-container container grid">
+                <!-- Programming Languages -->
+                <div class="skills-card">
+                    <h3 class="skills-card-title"><i data-feather="code"></i> Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C Programming</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skills-card">
+                    <h3 class="skills-card-title"><i data-feather="layout"></i> Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & Databases -->
+                <div class="skills-card">
+                    <h3 class="skills-card-title"><i data-feather="server"></i> Backend & Database</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">JDBC</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java Backend</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Concepts -->
+                <div class="skills-card">
+                    <h3 class="skills-card-title"><i data-feather="tool"></i> Tools & Concepts</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Full Stack Development</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">IoT Integration</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="soft-skills-container container">
+                <h3 class="soft-skills-title">Core Competencies</h3>
+                <div class="soft-skills-grid">
+                    <span class="soft-skill-badge"><i data-feather="award"></i> Leadership</span>
+                    <span class="soft-skill-badge"><i data-feather="users"></i> Teamwork</span>
+                    <span class="soft-skill-badge"><i data-feather="activity"></i> Flexibility</span>
+                    <span class="soft-skill-badge"><i data-feather="shield"></i> Responsibility</span>
+                    <span class="soft-skill-badge"><i data-feather="zap"></i> Quick Learning</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <span class="section-subtitle">My professional industry exposure</span>
+
+            <div class="experience-container container">
+                <div class="timeline">
+                    <!-- Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content card">
+                            <h3 class="timeline-title">Full Stack Development Intern</h3>
+                            <span class="timeline-subtitle">Ether Infotech</span>
+                            <ul class="timeline-list">
+                                <li>Developed responsive web applications using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>.</li>
+                                <li>Implemented clean frontend components and integrated with backend APIs.</li>
+                                <li>Collaborated on real-world projects, enhancing debugging skills and troubleshooting errors.</li>
+                                <li>Applied software development best practices in project design and implementation.</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="badge">React</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">CSS Grid</span>
+                                <span class="badge">API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <span class="section-subtitle">Most recent software and hardware solutions</span>
+
+            <div class="projects-container container">
+                <!-- Projects Filter Buttons -->
+                <div class="projects-filters">
+                    <button class="filter-btn active" data-filter="all">All Work</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="iot">IoT Systems</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid grid">
+                    <!-- Project 1: Vehicle Rental -->
+                    <div class="project-card card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-icon-placeholder">
+                                <i data-feather="truck"></i>
+                            </div>
+                            <div class="project-badge">Web Development</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Online Vehicle Rental System</h3>
+                            <span class="project-date">2023 - 2024</span>
+                            <p class="project-description">
+                                Designed and developed a vehicle rental management platform enabling streamlined booking, user authentication, and comprehensive vehicle search functionalities. Managed database records for customers and fleets securely.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge">HTML5</span>
+                                <span class="badge">CSS3</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">MySQL</span>
+                            </div>
+                            <a href="https://github.com/KavyaSreee2006" target="_blank" rel="noopener noreferrer" class="project-link">
+                                View Code <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Garbage Monitoring -->
+                    <div class="project-card card" data-category="iot">
+                        <div class="project-img-wrapper">
+                            <div class="project-icon-placeholder">
+                                <i data-feather="trash-2"></i>
+                            </div>
+                            <div class="project-badge">IoT & Hardware</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">IoT-Based Smart Garbage Monitoring</h3>
+                            <span class="project-date">2024 - 2025</span>
+                            <p class="project-description">
+                                Designed an IoT-based waste monitoring solution using ultrasonic sensors to enable real-time tracking of garbage levels and bin capacity. Automates alerts to improve waste collection routing and local efficiency.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge">IoT</span>
+                                <span class="badge">Ultrasonic Sensor</span>
+                                <span class="badge">Wireless Comm.</span>
+                            </div>
+                            <a href="https://github.com/KavyaSreee2006" target="_blank" rel="noopener noreferrer" class="project-link">
+                                View Code <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Transport Tracking -->
+                    <div class="project-card card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-icon-placeholder">
+                                <i data-feather="map-pin"></i>
+                            </div>
+                            <div class="project-badge">Web & GPS</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Real-Time Public Transport Tracking</h3>
+                            <span class="project-date">2025 - 2026</span>
+                            <p class="project-description">
+                                Developed a GPS-based vehicle tracking system with ETA prediction to provide real-time location updates for passengers. Designed to improve transport accessibility and reduce rider waiting times.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge">GPS Technology</span>
+                                <span class="badge">Mobile Networks</span>
+                                <span class="badge">Web Tech</span>
+                            </div>
+                            <a href="https://github.com/KavyaSreee2006" target="_blank" rel="noopener noreferrer" class="project-link">
+                                View Code <i data-feather="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <h2 class="section-title">Certifications & Extra-Curriculars</h2>
+            <span class="section-subtitle">Credentials and community engagements</span>
+
+            <div class="certifications-container container grid">
+                <!-- Certifications Card -->
+                <div class="cert-card-wrapper card">
+                    <h3 class="cert-section-title"><i data-feather="award"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">MongoDB Fundamentals</h4>
+                                <span class="cert-provider">MongoDB University</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Machine Learning Onramp</h4>
+                                <span class="cert-provider">MathWorks</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Deep Learning Onramp</h4>
+                                <span class="cert-provider">MathWorks</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Cloud Computing</h4>
+                                <span class="cert-provider">NPTEL</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Introduction to Internet of Things</h4>
+                                <span class="cert-provider">NPTEL</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Modeling of Building Environment</h4>
+                                <span class="cert-provider">Bentley Systems</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="check-circle" class="cert-check"></i>
+                            <div>
+                                <h4 class="cert-title">Modeling Structures with Analytical Modeler</h4>
+                                <span class="cert-provider">Bentley Systems</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Workshops & Hackathons -->
+                <div class="activities-wrapper grid">
+                    <div class="activity-card card">
+                        <div class="activity-icon"><i data-feather="users"></i></div>
+                        <h3 class="activity-title">Bash Bliss Workshop</h3>
+                        <span class="activity-org">PSG Institute of Technology</span>
+                        <p class="activity-description">
+                            Engaged in collaborative activities focused on enhancing technical shell scripting knowledge, teamwork coordination, and hands-on system troubleshooting.
+                        </p>
+                    </div>
+
+                    <div class="activity-card card">
+                        <div class="activity-icon"><i data-feather="target"></i></div>
+                        <h3 class="activity-title">CIT Hackathon</h3>
+                        <span class="activity-org">Coimbatore Institute of Technology</span>
+                        <p class="activity-description">
+                            Participated in a fast-paced development challenge, prototyping software components and working under deadlines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <span class="section-subtitle">Reach out for collaborations, internship opportunities, or queries</span>
+
+            <div class="contact-container container grid">
+                <div class="contact-info">
+                    <div class="contact-card card">
+                        <i data-feather="mail" class="contact-icon"></i>
+                        <h3 class="contact-card-title">Email</h3>
+                        <a href="mailto:kavyasreesundar9@gmail.com" class="contact-card-link">kavyasreesundar9@gmail.com</a>
+                    </div>
+                    <div class="contact-card card">
+                        <i data-feather="phone" class="contact-icon"></i>
+                        <h3 class="contact-card-title">Phone</h3>
+                        <a href="tel:7010247739" class="contact-card-link">+91 7010247739</a>
+                    </div>
+                    <div class="contact-card card">
+                        <i data-feather="linkedin" class="contact-icon"></i>
+                        <h3 class="contact-card-title">LinkedIn</h3>
+                        <a href="https://linkedin.com/in/kavya-sree-182618296" target="_blank" rel="noopener noreferrer" class="contact-card-link">linkedin.com/in/kavya-sree-182618296</a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form card" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" cols="30" rows="5" class="form-input" placeholder="Your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit">Send Message <i data-feather="send"></i></button>
+                    
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <h2 class="footer-title">Kavya Sree S S</h2>
+            <p class="footer-subtitle">Full Stack Developer & CSE Student</p>
+            <div class="footer-socials">
+                <a href="https://github.com/KavyaSreee2006" target="_blank" rel="noopener noreferrer" class="footer-social-link"><i data-feather="github"></i></a>
+                <a href="https://linkedin.com/in/kavya-sree-182618296" target="_blank" rel="noopener noreferrer" class="footer-social-link"><i data-feather="linkedin"></i></a>
+            </div>
+            <p class="footer-copy">&#169; 2026 Kavya Sree S S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
