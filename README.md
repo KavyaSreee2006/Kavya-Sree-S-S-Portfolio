@@ -4,9 +4,13 @@ A premium, modern, and fully responsive single-page portfolio website built to s
 
 This website is built with clean, semantic **HTML5**, modern **CSS3** (incorporating glassmorphism, fluid responsive layouts, and interactive micro-animations), and vanilla **JavaScript** for interactions.
 
-## 🚀 Live Demo & Local Preview
+## 🚀 Live Demo
 
-You can open the site locally in your default web browser by double-clicking:
+You can view the live, hosted website here:
+👉 **[Live Portfolio Website](https://kavyasree-portfolio.netlify.app/)**
+
+### 💻 Local Preview
+To open the site locally in your default web browser, double-click:
 👉 **[index.html](./index.html)**
 
 ---
