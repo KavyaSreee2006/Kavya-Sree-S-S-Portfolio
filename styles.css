@@ -1,19 +1,20 @@
 /* CSS CUSTOM PROPERTIES / DESIGN SYSTEM */
 :root {
-    /* Dark Theme Variables (Default) */
-    --bg-color: #0b0f19;
-    --bg-card: rgba(17, 24, 39, 0.65);
-    --bg-card-hover: rgba(23, 33, 53, 0.8);
-    --border-color: rgba(255, 255, 255, 0.08);
-    --border-color-hover: rgba(56, 189, 248, 0.3);
-    --text-color: #e2e8f0;
-    --text-muted: #94a3b8;
-    --primary-color: #38bdf8;
-    --primary-hover: #0ea5e9;
-    --primary-glow: rgba(56, 189, 248, 0.15);
-    --accent-color: #c084fc;
+    /* Dark Theme Variables (Default) - Neon Purple & Orange */
+    --bg-color: #0a0512;
+    --bg-card: rgba(23, 14, 33, 0.65);
+    --bg-card-hover: rgba(35, 20, 51, 0.8);
+    --border-color: rgba(168, 85, 247, 0.15);
+    --border-color-hover: rgba(249, 115, 22, 0.4);
+    --text-color: #f3f0f7;
+    --text-muted: #b4a8be;
+    --primary-color: #a855f7; /* Neon Purple */
+    --primary-hover: #c084fc;
+    --primary-glow: rgba(168, 85, 247, 0.2);
+    --accent-color: #f97316; /* Neon Orange */
+    --accent-glow: rgba(249, 115, 22, 0.15);
     --success-color: #34d399;
-    --header-bg: rgba(11, 15, 25, 0.8);
+    --header-bg: rgba(10, 5, 18, 0.85);
     
     /* Layout Tokens */
     --font-sans: 'Plus Jakarta Sans', sans-serif;
@@ -24,21 +25,22 @@
     --transition-curve: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Light Theme Variables */
+/* Light Theme Variables - Soft Purple & Orange */
 [data-theme="light"] {
-    --bg-color: #f8fafc;
+    --bg-color: #faf8fc;
     --bg-card: rgba(255, 255, 255, 0.75);
-    --bg-card-hover: rgba(255, 255, 255, 0.95);
-    --border-color: rgba(15, 23, 42, 0.08);
-    --border-color-hover: rgba(2, 132, 199, 0.25);
-    --text-color: #0f172a;
-    --text-muted: #64748b;
-    --primary-color: #0284c7;
-    --primary-hover: #0369a1;
-    --primary-glow: rgba(2, 132, 199, 0.1);
-    --accent-color: #9333ea;
-    --success-color: #10b981;
-    --header-bg: rgba(248, 250, 252, 0.8);
+    --bg-card-hover: rgba(253, 250, 255, 0.95);
+    --border-color: rgba(147, 51, 234, 0.1);
+    --border-color-hover: rgba(234, 88, 12, 0.3);
+    --text-color: #2e1d3d;
+    --text-muted: #7e6c8f;
+    --primary-color: #9333ea;
+    --primary-hover: #7e22ce;
+    --primary-glow: rgba(147, 51, 234, 0.12);
+    --accent-color: #ea580c;
+    --accent-glow: rgba(234, 88, 12, 0.1);
+    --success-color: #16a34a;
+    --header-bg: rgba(250, 248, 252, 0.85);
 }
 
 /* BASE RESET */
@@ -172,7 +174,7 @@ button, input, textarea {
 
 .btn-primary:hover {
     background-color: var(--primary-hover);
-    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.3);
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.3);
 }
 
 [data-theme="light"] .btn-primary {
@@ -749,7 +751,7 @@ button, input, textarea {
     display: inline-block;
     padding: 0.35rem 0.85rem;
     border-radius: 20px;
-    background-color: rgba(56, 189, 248, 0.1);
+    background-color: var(--primary-glow);
     color: var(--primary-color);
     font-size: 0.8rem;
     font-weight: 700;
@@ -839,7 +841,7 @@ button, input, textarea {
 
 .project-img-wrapper {
     height: 160px;
-    background: linear-gradient(135deg, rgba(56, 189, 248, 0.05), rgba(192, 132, 252, 0.05));
+    background: linear-gradient(135deg, var(--primary-glow), var(--accent-glow));
     border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: center;
