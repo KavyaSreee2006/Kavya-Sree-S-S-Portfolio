@@ -1,0 +1,8 @@
+node_modules/
+~$*.html
+*.bak
+*orientations.html
+*orientations.js
+process_image.js
+extract_jpg.js
+find_lock.ps1
