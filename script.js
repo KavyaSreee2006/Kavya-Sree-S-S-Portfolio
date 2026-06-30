@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('show-menu');
             // Toggle hamburger icon between menu and x
-            const icon = navToggle.querySelector('i');
+            const icon = navToggle.querySelector('[data-feather]');
             if (icon) {
                 if (navMenu.classList.contains('show-menu')) {
                     icon.setAttribute('data-feather', 'x');
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             navMenu.classList.remove('show-menu');
-            const icon = navToggle.querySelector('i');
+            const icon = navToggle.querySelector('[data-feather]');
             if (icon) {
                 icon.setAttribute('data-feather', 'menu');
                 feather.replace();
